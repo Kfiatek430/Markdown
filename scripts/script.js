@@ -1753,6 +1753,7 @@ function changeConent(id) {
     buttons[id].classList.add('active')
     
     selectedContent = id
+    globalThis.scrollTo(0, 0)
 }
 
 function changeLanguage(id) {
