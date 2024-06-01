@@ -1738,10 +1738,8 @@ function changeConent(id) {
         contextMenu.innerHTML = contextMenuPL[id]
         menu.innerHTML = menuPL
         hljs.highlightAll();
-		console.log(hljs);
     } else {
         article.innerHTML = textEN[id]
-        console.log(contextMenuEN[id])
         contextMenu.innerHTML = contextMenuEN[id]
         menu.innerHTML = menuEN
         hljs.highlightAll();
